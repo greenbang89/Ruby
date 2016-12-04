@@ -1,0 +1,22 @@
+'''i = 0
+while i <3 do
+    puts('hello world')
+    i= i+1
+end
+#파이썬의 반복문 참조'''
+'''i = 0
+while i < 10 do
+    puts('puts("hello world '+(i*9).to_s()+'")')
+    # .to_s() 는 앞의것을 str 형태로 바꿔줌
+    i = i + 1
+end'''
+i = 0
+while i < 10 do
+    if i == 4 # i 값이 4가 아닐때 참인경우
+    # if i == 4: # i 값이 4일때 참인경우
+        break # break = end
+    end
+    puts(i)
+    i = i + 1
+end
+puts('after while')
